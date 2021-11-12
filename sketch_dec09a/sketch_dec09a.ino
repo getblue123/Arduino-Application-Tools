@@ -3,8 +3,8 @@
 #include <LiquidCrystal_I2C.h>   
 #include <String.h>
 
-const char *ssid = "123";           //WiFi 名稱
-const char *password = "29678316";  //WiFi 密碼
+const char *ssid = "***";           //WiFi 名稱
+const char *password = "***";  //WiFi 密碼
 
 const int IA = D8;  //  pin 5 connected to pin IA
 const int IB = D9;  //  pin 6 connected to pin IB
