@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="17dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="34dp"
+            android:layout_height="wrap_content"
+            android:text="ip:" />
+
+        <EditText
+            android:id="@+id/Server_Ip"
+            android:layout_width="167dp"
+            android:layout_height="49dp"
+            android:layout_weight="2"
+            android:gravity="center" />
+        <Button
+            android:id="@+id/btn_tcpCon"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="開啟連線" />
+
+        <Button
+            android:id="@+id/btn_tcpClo"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="關閉連線" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="17dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageButton
+            android:id="@+id/red_btn"
+            android:layout_width="122dp"
+            android:layout_height="93dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/red" />
+
+        <ImageButton
+            android:id="@+id/green_btn"
+            android:layout_width="122dp"
+            android:layout_height="93dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/green" />
+
+        <ImageButton
+            android:id="@+id/blue_btn"
+            android:layout_width="122dp"
+            android:layout_height="93dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/blue" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="253dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btn_off"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="OFF" />
+
+        <TextView
+            android:id="@+id/codeView"
+            android:layout_width="match_parent"
+            android:layout_height="266dp"
+            android:gravity="center"
+            android:text=" " />
+    </LinearLayout>
+
+
+</LinearLayout>

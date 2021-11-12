@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="34dp"
+            android:layout_height="wrap_content"
+            android:text="ip:" />
+
+        <EditText
+            android:id="@+id/Server_Ip"
+            android:layout_width="167dp"
+            android:layout_height="49dp"
+            android:layout_weight="2"
+            android:gravity="center" />
+        <Button
+            android:id="@+id/btn_tcpCon"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="開啟連線" />
+
+        <Button
+            android:id="@+id/btn_tcpClo"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="關閉連線" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="181dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="請輸入指令："
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editcommand"
+            android:layout_width="128dp"
+            android:layout_height="74dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btn_command"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="118dp"
+            android:layout_height="76dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="指令表" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="19dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/code_view2"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="88dp"
+            android:layout_height="62dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="指令程式" />
+
+        <Button
+            android:id="@+id/btn_option"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="108dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center"
+            android:text="發送" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/hornview"
+            android:layout_width="411dp"
+            android:layout_height="221dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="" />
+    </LinearLayout>
+
+
+</LinearLayout>

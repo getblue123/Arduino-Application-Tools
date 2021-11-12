@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageButton
+            android:id="@+id/imagebutton"
+            android:layout_width="191dp"
+            android:layout_height="204dp"
+            android:layout_gravity="end"
+            android:layout_margin="10sp"
+            android:background="#0d1b59"
+            android:scaleType="fitXY"
+            android:src="@drawable/ardlcd" />
+
+        <ImageButton
+            android:id="@+id/imagebutton1"
+            android:layout_width="186dp"
+            android:layout_height="201dp"
+            android:layout_gravity="right"
+            android:layout_margin="10sp"
+            android:background="#0d1b59"
+            android:scaleType="fitXY"
+            android:src="@drawable/ardhorn" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageButton
+            android:id="@+id/imagebutton3"
+            android:layout_width="191dp"
+            android:layout_height="204dp"
+            android:layout_gravity="end"
+            android:layout_margin="10sp"
+            android:background="#0d1b59"
+            android:scaleType="fitXY"
+            android:src="@drawable/ardrgb" />
+
+        <ImageButton
+            android:id="@+id/imagebutton4"
+            android:layout_width="184dp"
+            android:layout_height="205dp"
+            android:layout_gravity="right"
+            android:layout_margin="10sp"
+            android:background="#0d1b59"
+            android:scaleType="fitXY"
+            android:src="@drawable/ardmotor" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="109dp"
+            android:layout_height="61dp"
+            android:layout_gravity="center"
+            android:text="下一頁" />
+    </LinearLayout>
+
+</LinearLayout>

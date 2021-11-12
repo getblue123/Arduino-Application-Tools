@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="347dp"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_FunctionEnsure"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="95dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="開始使用" />
+
+    </LinearLayout>
+
+</LinearLayout>
