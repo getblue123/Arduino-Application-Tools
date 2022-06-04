@@ -6,7 +6,7 @@ AAT都能讓您在設計上達到革命性的突破。
 V1.0<br><br>
 建立手機和Arduino之間的連線<br><br>
 •使用AAT通過Wifi即可與Arduino連線<br>
-•AAT可作為提供Arduino服務的傳輸通道
+•AAT可作為提供Arduino服務的傳輸通道<br>
 <br><br>
 AAT透過人性化的API讓使用者可快速上手<br><br>
 •透過API了解Arduino的元件特色<br>
