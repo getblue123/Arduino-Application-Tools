@@ -3,7 +3,7 @@
 AAT都能讓您在設計上達到革命性的突破。
 
 # Features :<br>
-V1.0<br><br>
+V1.0<br>
 建立手機和Arduino之間的連線<br>
 •使用AAT通過Wifi即可與Arduino連線<br>
 •AAT可作為提供Arduino服務的傳輸通道<br>
