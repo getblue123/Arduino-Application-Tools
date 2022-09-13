@@ -12,6 +12,9 @@ AAT透過人性化的API讓使用者可快速上手<br>
 •透過API了解Arduino的元件特色<br>
 •點擊教學中任意元件的圖片可查看該元件的接線圖。<br>
 
+# 影片 :<br>
+https://drive.google.com/file/d/1QgO_psLJtqmEkCal4yMi1UUrpYjdQbsq/view?usp=sharing
+
 # 應用訊息
 版本<br> 
 V1.0<br><br>
